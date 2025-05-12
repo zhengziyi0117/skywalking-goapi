@@ -94,7 +94,7 @@ function generateCodes(){
 }
 
 initProtocolHome
-addProtocol skywalking-collect https://github.com/apache/skywalking-data-collect-protocol/archive/"${COLLECT_PROTOCOL_SHA}".tar.gz
+addProtocol skywalking-collect https://github.com/zhengziyi0117/skywalking-data-collect-protocol/archive/"${COLLECT_PROTOCOL_SHA}".tar.gz
 addProtocol envoy https://github.com/envoyproxy/data-plane-api/archive/${ENVOY_SERVICE_PROTOCOL_SHA}.tar.gz
 addProtocol xds https://github.com/cncf/xds/archive/${XDS_SERVICE_PROTOCOL_SHA}.tar.gz
 addProtocol protoc-gen-validate https://github.com/envoyproxy/protoc-gen-validate/archive/${PROTOC_VALIDATE_SHA}.tar.gz
